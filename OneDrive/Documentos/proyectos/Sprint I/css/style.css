@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+body{
+    background-color: lightsteelblue;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo{
+    float: left;
+}
+h1{    
+    text-align: center;
+    margin-top: 0;       
+}
+.box-encriptador{    
+    background-color: white; 
+    margin-top: 40px;   
+    width: 25%;    
+    height: 500px;
+    float: right!important;
+    border-radius: 10px;    
+}
+#img{    
+    object-fit: cover;
+    margin-top: 15px;
+    width: 80%;
+    height: 60%;
+}
+
+h2{
+    text-align: center;    
+    color: black;
+}
+#parrafo-encriptador{    
+    text-align: center;
+    color: grey;
+    
+}
+#txtEncriptar{
+    width: 50%;
+    height: 300px;
+    font-size: 22px;
+    margin: 7% 8%;
+    border-style: none;
+    float: center;
+    resize: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+   
+}
+#btn-encriptar{
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: 16px;    
+
+}
+#btn-desencriptar{
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 16px;
+    
+}
+footer{
+    margin-top: 10%;
+    font-style: italic;
+    text-align: center;
+}
+

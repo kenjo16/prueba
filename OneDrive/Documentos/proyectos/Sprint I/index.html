@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="cabecera">       
+        <img id="logo"  src="img/Vector.png" alt="Logo-Alura">
+        <h1>Encriptador de mensajes - Alura</h1>             
+    </header>
+    <div class="box-encriptador">
+        <img id="img" src="img/Muñeco.png" alt="">
+        <h2 id="txt-principal">Ningun mensaje fue<br> encontrado</h2>
+        <p id="parrafo-encriptador">        
+            <br>ingrese el texto que desea <br>encriptar o desencriptar.
+        </p>      
+    </div>
+    <div class="texto-contenedor">
+        <textarea name="texto-encriptar" id="txtEncriptar" placeholder="Ingrese su mensaje aquí"></textarea>
+        <div class="btn">
+            <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>        
+    </div>
+    
+</body>
+<script src="js/script.js"></script>
+<footer>
+    Creado por Alejandro Pérez &copy; 2022
+</footer>
+</html>
